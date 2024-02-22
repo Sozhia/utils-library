@@ -33,8 +33,8 @@ public class PolynomialFunction extends AbstractTimeFunction {
         this.coefficients = new AbstractTimeFunction[length];
         int i = 0;
         for (double j : coefficients) {
-            // this.coefficients[i++] = new RandomFunction(RandomVariateFactory.getInstance("ConstantVariate", j));
-            this.coefficients[i++] = (AbstractTimeFunction) RandomVariateFactory.getInstance("ConstantVariate", j);;
+            this.coefficients[i++] = new RandomFunction(RandomVariateFactory.getInstance("ConstantVariate", j));
+            // this.coefficients[i++] = (AbstractTimeFunction) RandomVariateFactory.getInstance("ConstantVariate", j);;
         }
     }
 
