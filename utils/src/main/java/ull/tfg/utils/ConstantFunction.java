@@ -7,19 +7,19 @@ package ull.tfg.utils;
  */
 public class ConstantFunction extends AbstractTimeFunction {
 
-    private double val;
+    private double constantValue;
 
-    public ConstantFunction(double val) {
-        super();
-        this.val = val;
+    public ConstantFunction(double constantValue) {
+        // super();
+        this.constantValue = constantValue;
     }
 
-    public void setValue(double val) {
-        this.val = val;
+    public void setConstantValue(double val) {
+        this.constantValue = val;
     }
 
     public double getValue(TimeParams params) {
-        return val;
+        return constantValue;
     }
 
     @Override
@@ -28,7 +28,8 @@ public class ConstantFunction extends AbstractTimeFunction {
             throw new IllegalArgumentException("Need (value), received " +
                     params.length + " parameters");
         else {
-            setValue(((Number)params[0]).doubleValue());
+            // setValue(((Number)params[0]).doubleValue());
+            setConstantValue(((Number)params[0]).doubleValue()); // Sets the value of the constant function.
         }
 
     }
