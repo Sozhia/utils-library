@@ -1,7 +1,7 @@
 
 package ull.tfg.utils;
 
-public interface ITimeFunctionParams {
+public interface TimeParams {
 
     double getTime();
 }
