@@ -18,5 +18,4 @@ public abstract class AbstractTimeFunction {
      */
     public abstract void setParameters(Object... params);
 
-    public abstract double getValue(TimeParams params);
 }
