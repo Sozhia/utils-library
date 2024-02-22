@@ -1,0 +1,6 @@
+{
+  "java.format.settings.url": ".vscode/java-formatter.xml",
+  "docwriter.style": "Javadoc",
+  "docwriter.progress.trackMethods": false,
+  "docwriter.progress.trackFunctions": false
+}
