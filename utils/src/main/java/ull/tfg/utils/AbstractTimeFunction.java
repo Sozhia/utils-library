@@ -17,4 +17,6 @@ public abstract class AbstractTimeFunction {
      * @param params Parameters required by this function.
      */
     public abstract void setParameters(Object... params);
+
+    public abstract double getValue(TimeParams params);
 }
