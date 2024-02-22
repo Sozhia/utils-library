@@ -25,6 +25,14 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.zenuevo.simkit/simkit -->
+    <dependency>
+      <groupId>com.zenuevo.simkit</groupId>
+      <artifactId>simkit</artifactId>
+      <version>1.4.1</version>
+    </dependency>
+
   </dependencies>
 
   <build>
