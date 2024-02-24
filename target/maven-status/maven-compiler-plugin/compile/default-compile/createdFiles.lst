@@ -2,7 +2,7 @@ ull\tfg\utils\LinearFunction.class
 ull\tfg\utils\PolynomialFunction.class
 ull\tfg\utils\TimeFunctionFactory.class
 ull\tfg\utils\PositiveTimeFunction.class
-ull\tfg\utils\TimeParams.class
+ull\tfg\utils\TimeFunctionParams.class
 ull\tfg\utils\ConstantFunction.class
 ull\tfg\utils\PeriodicProportionFunction.class
 ull\tfg\utils\TimeFunctionSplitter.class

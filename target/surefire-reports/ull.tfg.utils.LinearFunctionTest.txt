@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: ull.tfg.utils.LinearFunctionTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.020 s <<< FAILURE! -- in ull.tfg.utils.LinearFunctionTest
+ull.tfg.utils.LinearFunctionTest.testGetValue -- Time elapsed: 0.992 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "ull.tfg.utils.TimeFunctionParams.getTime()" because "params" is null
+	at ull.tfg.utils.LinearFunction.getValue(LinearFunction.java:75)
+	at ull.tfg.utils.LinearFunctionTest.testGetValue(LinearFunctionTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+ull.tfg.utils.LinearFunctionTest.testSetParameters -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.IllegalArgumentException: Need (Scale, Shift), received 1 parameters
+	at ull.tfg.utils.LinearFunction.setParameters(LinearFunction.java:85)
+	at ull.tfg.utils.LinearFunctionTest.testSetParameters(LinearFunctionTest.java:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
