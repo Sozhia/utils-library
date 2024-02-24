@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ull.tfg.utils.PeriodicProportionFunctionTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in ull.tfg.utils.PeriodicProportionFunctionTest
