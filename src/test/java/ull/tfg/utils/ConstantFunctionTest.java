@@ -24,6 +24,7 @@ class ConstantFunctionTest {
 
     @Test
     void getConstantValue() {
+        constantFunction.setConstantValueValue(0.23);
         Assertions.assertEquals(0.23,constantFunction.getValue(params));
     }
 

@@ -20,11 +20,13 @@ class LinearFunctionTest {
 
     @Test
     void getScale() {
+        instance.setParameters(scale,shift);
         Assertions.assertEquals(scale, instance.getScale());
     }
 
     @Test
     void getShift() {
+        instance.setParameters(scale,shift);
         Assertions.assertEquals(shift, instance.getShift());
     }
 
