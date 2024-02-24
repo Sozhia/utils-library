@@ -38,6 +38,7 @@ class LinearFunctionTest {
         linearFunction.setScale(shift);
     }
 
+    // Buscar alternativas al churro ese
     @Test
     void getValue() {
         Assertions.assertEquals(0.5700000000000001, linearFunction.getValue(params));
