@@ -30,7 +30,7 @@ public class PositiveTimeFunction extends AbstractTimeFunction {
      * @return A positive value corresponding to the definition of this function.
      */
     @Override
-    public double getValue(TimeParams params) {
+    public double getValue(TimeFunctionParams params) {
         double res = innerTimeFunction.getValue(params);
         if (res < 0.0) {
             res = 0.0;

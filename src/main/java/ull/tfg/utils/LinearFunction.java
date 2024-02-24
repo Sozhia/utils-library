@@ -71,7 +71,7 @@ public class LinearFunction extends AbstractTimeFunction {
         this.shift = shift;
     }
 
-    public double getValue(TimeParams params) {
+    public double getValue(TimeFunctionParams params) {
         return scale.getValue(params) * params.getTime() + shift.getValue(params);
     }
 

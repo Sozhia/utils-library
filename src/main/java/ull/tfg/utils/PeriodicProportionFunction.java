@@ -57,7 +57,7 @@ public class PeriodicProportionFunction extends AbstractTimeFunction {
      * @return The calculated value.
      */
     @Override
-    public double getValue(TimeParams params) {
+    public double getValue(TimeFunctionParams params) {
         int unit = (int) (params.getTime() / timeUnit);
         int indexp = unit % prop.length;
         int indexv = (unit / prop.length) % nElem.length;

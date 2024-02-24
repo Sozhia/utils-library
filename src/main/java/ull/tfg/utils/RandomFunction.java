@@ -46,7 +46,7 @@ public class RandomFunction extends AbstractTimeFunction {
     }
 
     @Override
-    public double getValue(TimeParams params) {
+    public double getValue(TimeFunctionParams params) {
         return rnd.generate();
     }
 

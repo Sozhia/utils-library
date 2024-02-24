@@ -31,7 +31,7 @@ public class NextHighFunction extends AbstractTimeFunction {
      * @return The next highest value of the function.
      */
     @Override
-    public double getValue(TimeParams params) {
+    public double getValue(TimeFunctionParams params) {
         final double ts = params.getTime();
         final double auxVal = Math.ceil((ts + func.getValue(params) - shift) / scale) * scale + shift;
         return auxVal - ts;

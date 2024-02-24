@@ -44,7 +44,7 @@ public class PolynomialFunction extends AbstractTimeFunction {
     public PolynomialFunction() {}
 
     @Override
-    public double getValue(TimeParams params) {
+    public double getValue(TimeFunctionParams params) {
         double value = 0;
         for (int i = 0; i < length; i++) {
             value += Math.pow(params.getTime(), length - i - 1) * coefficients[i].getValue(params);
