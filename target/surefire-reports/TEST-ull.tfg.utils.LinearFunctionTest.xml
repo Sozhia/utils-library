@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ull.tfg.utils.LinearFunctionTest" time="1.02" tests="2" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ull.tfg.utils.LinearFunctionTest" time="0.006" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="P:\Workspace\utils-library\target\test-classes;P:\Workspace\utils-library\target\classes;C:\Users\codin\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\codin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\codin\.m2\repository\com\zenuevo\simkit\simkit\1.4.1\simkit-1.4.1.jar;C:\Users\codin\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\codin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\codin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\codin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\codin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\codin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\codin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\codin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\codin\.m2\repository\org\mockito\mockito-core\5.10.0\mockito-core-5.10.0.jar;C:\Users\codin\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\codin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.11\byte-buddy-agent-1.14.11.jar;C:\Users\codin\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="java.class.path" value="P:\Workspace\utils-library\target\test-classes;P:\Workspace\utils-library\target\classes;C:\Users\codin\.m2\repository\com\zenuevo\simkit\simkit\1.4.1\simkit-1.4.1.jar;C:\Users\codin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\codin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\codin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\codin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\codin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\codin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\codin\AppData\Local\Temp\surefire7356191719178637601\surefirebooter-20240224094156331_3.jar C:\Users\codin\AppData\Local\Temp\surefire7356191719178637601 2024-02-24T09-41-55_880-jvmRun1 surefire-20240224094156331_1tmp surefire_0-20240224094156331_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\codin\AppData\Local\Temp\surefire10827981936206808362\surefirebooter-20240224103354564_3.jar C:\Users\codin\AppData\Local\Temp\surefire10827981936206808362 2024-02-24T10-33-54_437-jvmRun1 surefire-20240224103354564_1tmp surefire_0-20240224103354564_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="P:\Workspace\utils-library\target\test-classes;P:\Workspace\utils-library\target\classes;C:\Users\codin\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\codin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\codin\.m2\repository\com\zenuevo\simkit\simkit\1.4.1\simkit-1.4.1.jar;C:\Users\codin\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\codin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\codin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\codin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\codin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\codin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\codin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\codin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\codin\.m2\repository\org\mockito\mockito-core\5.10.0\mockito-core-5.10.0.jar;C:\Users\codin\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\codin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.11\byte-buddy-agent-1.14.11.jar;C:\Users\codin\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="surefire.test.class.path" value="P:\Workspace\utils-library\target\test-classes;P:\Workspace\utils-library\target\classes;C:\Users\codin\.m2\repository\com\zenuevo\simkit\simkit\1.4.1\simkit-1.4.1.jar;C:\Users\codin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\codin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\codin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\codin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\codin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\codin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\codin"/>
     <property name="user.language" value="es"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\codin\AppData\Local\Temp\surefire7356191719178637601\surefirebooter-20240224094156331_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\codin\AppData\Local\Temp\surefire10827981936206808362\surefirebooter-20240224103354564_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -59,27 +59,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testGetValue" classname="ull.tfg.utils.LinearFunctionTest" time="0.992">
-    <error message="Cannot invoke &quot;ull.tfg.utils.TimeFunctionParams.getTime()&quot; because &quot;params&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "ull.tfg.utils.TimeFunctionParams.getTime()" because "params" is null
-	at ull.tfg.utils.LinearFunction.getValue(LinearFunction.java:75)
-	at ull.tfg.utils.LinearFunctionTest.testGetValue(LinearFunctionTest.java:30)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-]]></error>
-    <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\codin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.11\byte-buddy-agent-1.14.11.jar)
-WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
-WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
-WARNING: Dynamic loading of agents will be disallowed by default in a future release
-]]></system-err>
-  </testcase>
-  <testcase name="testSetParameters" classname="ull.tfg.utils.LinearFunctionTest" time="0.004">
-    <error message="Need (Scale, Shift), received 1 parameters" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: Need (Scale, Shift), received 1 parameters
-	at ull.tfg.utils.LinearFunction.setParameters(LinearFunction.java:85)
-	at ull.tfg.utils.LinearFunctionTest.testSetParameters(LinearFunctionTest.java:36)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-]]></error>
-  </testcase>
+  <testcase name="testSetParameters" classname="ull.tfg.utils.LinearFunctionTest" time="0.001"/>
+  <testcase name="setParameters" classname="ull.tfg.utils.LinearFunctionTest" time="0.001"/>
+  <testcase name="setScale" classname="ull.tfg.utils.LinearFunctionTest" time="0.001"/>
+  <testcase name="setShift" classname="ull.tfg.utils.LinearFunctionTest" time="0.001"/>
+  <testcase name="getScale" classname="ull.tfg.utils.LinearFunctionTest" time="0.001"/>
+  <testcase name="getShift" classname="ull.tfg.utils.LinearFunctionTest" time="0.0"/>
+  <testcase name="getValue" classname="ull.tfg.utils.LinearFunctionTest" time="0.0"/>
 </testsuite>

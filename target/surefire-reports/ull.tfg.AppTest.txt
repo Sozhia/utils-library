@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: ull.tfg.utils.LinearFunctionTest
+Test set: ull.tfg.AppTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in ull.tfg.utils.LinearFunctionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in ull.tfg.AppTest
