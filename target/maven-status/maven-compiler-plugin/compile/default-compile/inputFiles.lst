@@ -1,6 +1,5 @@
 P:\Workspace\utils-library\src\main\java\ull\tfg\utils\PolynomialFunction.java
 P:\Workspace\utils-library\src\main\java\ull\tfg\utils\TimeFunctionSplitter.java
-P:\Workspace\utils-library\src\main\java\ull\tfg\utils\TimeParams.java
 P:\Workspace\utils-library\src\main\java\ull\tfg\utils\AbstractTimeFunction.java
 P:\Workspace\utils-library\src\main\java\ull\tfg\utils\NextHighFunction.java
 P:\Workspace\utils-library\src\main\java\ull\tfg\utils\RoundFunction.java
@@ -12,3 +11,4 @@ P:\Workspace\utils-library\src\main\java\ull\tfg\utils\RandomFunction.java
 P:\Workspace\utils-library\src\main\java\ull\tfg\App.java
 P:\Workspace\utils-library\src\main\java\ull\tfg\utils\ReplicableTimeFunction.java
 P:\Workspace\utils-library\src\main\java\ull\tfg\utils\TimeFunctionFactory.java
+P:\Workspace\utils-library\src\main\java\ull\tfg\utils\TimeFunctionParams.java
