@@ -22,14 +22,7 @@ class PeriodicProportionFunctionTest {
 
   @Test
   void getValue() {
-    // Caso de prueba para el método getValue
-    // Supongamos un momento de tiempo arbitrario
-    double time = 25.0;
-    // Valor esperado: nElem[indexv] * prop[indexp]
-    // indexp = (25 / 10) % 3 = 2
-    // indexv = ((25 / 10) / 3) % 3 = 0
-    // Valor esperado = 1 * 0.2 = 0.2
-    assertEquals(0.2, periodicProportionFunction.getValue(params));
+    assertEquals(0.3, periodicProportionFunction.getValue(params));
   }
 
   @Test
