@@ -6,14 +6,15 @@ import org.junit.jupiter.api.Test;
 class ConstantFunctionTest {
     ConstantFunction constantFunction = new ConstantFunction(0d);
 
-    TimeFunctionParams params = new TimeFunctionParams() {
-        @Override
-        public double getTime() {
-            return 1.0;
-        }
-    };
+    TimeFunctionParams params = () -> 1.0;
 
     double expectedValue = 10.0;
+
+    @Test
+    void testConstructor(){
+        ConstantFunction constantFunction = new ConstantFunction(0d);
+        Assertions.assertEquals(ConstantFunction.class, constantFunction.getClass());
+    }
 
 
     @Test
