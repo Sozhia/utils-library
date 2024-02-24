@@ -1,5 +1,7 @@
 package ull.tfg.utils;
 
+import java.util.Collection;
+
 /**
  * A tricky function used to return the percentage of a value depending on the time unit.
  * Requires a set of integer values, a set of proportions (whose addition must be 1) and a
@@ -10,7 +12,7 @@ package ull.tfg.utils;
  * @author Iv�n Castilla Rodr�guez
  *
  */
-public class PeriodicProportionFunction extends TimeFunction {
+public class PeriodicProportionFunction extends AbstractTimeFunction {
     private int []nElem;
     private double []prop;
     private double timeUnit;
@@ -35,7 +37,8 @@ public class PeriodicProportionFunction extends TimeFunction {
      * @param prop
      * @param timeUnit
      */
-    public PeriodicProportionFunction(Collection<Integer> elem, Collection<Double> prop, double timeUnit) {
+    public PeriodicProportionFunction(Collection<Integer> elem,
+                                      Collection<Double> prop, double timeUnit) {
         super();
         this.nElem = new int[elem.size()];
         int i = 0;
@@ -67,7 +70,9 @@ public class PeriodicProportionFunction extends TimeFunction {
         if (params.length != 3)
             throw new IllegalArgumentException("Need 3, received " +
                     params.length + " parameters");
-        if (!(params[0] instanceof int[]) || !(params[1] instanceof double[]) || !(params[2] instanceof Number))
+        if (!(params[0] instanceof int[]) ||
+                !(params[1] instanceof double[]) ||
+                !(params[2] instanceof Number))
             throw new IllegalArgumentException("Parameters must be int[], double[] and double");
         setNElem((int[])params[0]);
         setProp((double[])params[1]);
