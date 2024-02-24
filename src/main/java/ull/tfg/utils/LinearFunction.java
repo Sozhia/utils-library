@@ -1,8 +1,8 @@
 package ull.tfg.utils;
 
 /**
- * Represents the linear function: A�x + B. Thus, two parameters are required: A (scale) and B (shift).
- * @author Iv�n Castilla Rodr�guez
+ * Represents the linear function: Ax + B. Thus, two parameters are required: A (scale) and B (shift).
+ * @author Iván Castilla Rodríguez
  */
 public class LinearFunction extends AbstractTimeFunction {
     /** Scale */
