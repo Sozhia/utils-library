@@ -52,13 +52,13 @@ public class RoundFunction extends AbstractTimeFunction {
     }
 
     @Override
-    public double getValue(TimeParams params) {
+    public double getValue(TimeFunctionParams params) {
         double val = func.getValue(params);
         return val;
     }
     /*
     @Override
-    public double getValue(TimeParams params) {
+    public double getValue(TimeFunctionParams params) {
         double val = func.getValue(params);
         if (scale != 0.0) {
             switch (type) {

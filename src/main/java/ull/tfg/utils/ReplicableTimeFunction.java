@@ -38,7 +38,7 @@ public class ReplicableTimeFunction extends AbstractTimeFunction {
     }
 
     @Override
-    public double getValue(TimeParams params) {
+    public double getValue(TimeFunctionParams params) {
         if (counter == genValues.size()) {
             genValues.add(innerTimeFunction.getValue(params));
         }

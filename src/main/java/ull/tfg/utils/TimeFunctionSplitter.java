@@ -28,7 +28,7 @@ public class TimeFunctionSplitter extends AbstractTimeFunction {
     }
 
     @Override
-    public double getValue(TimeParams params) {
+    public double getValue(TimeFunctionParams params) {
         int unit = (int) (params.getTime() / timeUnit);
         int index = unit % part.length;
         return part[index].getValue(params);
