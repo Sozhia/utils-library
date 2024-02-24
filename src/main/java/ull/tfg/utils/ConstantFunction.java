@@ -14,11 +14,10 @@ public class ConstantFunction extends AbstractTimeFunction {
         this.constantValue = constantValue;
     }
 
-    public void setConstantValue(double val) {
+    public void setConstantValueValue(double val) {
         this.constantValue = val;
     }
 
-    public double getConstantValue() {return constantValue;}
     public double getValue(TimeFunctionParams params) {
         return constantValue;
     }
@@ -30,7 +29,7 @@ public class ConstantFunction extends AbstractTimeFunction {
                     params.length + " parameters");
         else {
             // setValue(((Number)params[0]).doubleValue());
-            setConstantValue(((Number)params[0]).doubleValue()); // Sets the value of the constant function.
+            setConstantValueValue(((Number)params[0]).doubleValue()); // Sets the value of the constant function.
         }
 
     }
