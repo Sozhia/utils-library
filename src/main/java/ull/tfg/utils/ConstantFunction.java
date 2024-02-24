@@ -18,6 +18,7 @@ public class ConstantFunction extends AbstractTimeFunction {
         this.constantValue = val;
     }
 
+    public double getConstantValue() {return constantValue;}
     public double getValue(TimeFunctionParams params) {
         return constantValue;
     }
