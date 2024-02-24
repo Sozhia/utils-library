@@ -1,17 +1,24 @@
 package ull.tfg.utils;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class LinearFunctionTest {
+    LinearFunction linearFunction;
+    TimeFunctionParams params;
+    AbstractTimeFunction scale,shift, newShift, newScale;
 
 
-    AbstractTimeFunction scale = new ConstantFunction(0.23);
-    AbstractTimeFunction shift = new ConstantFunction(0.11);
 
-    LinearFunction linearFunction = new LinearFunction(scale,shift);
+    @BeforeEach
+    void setUp() {
 
-    TimeFunctionParams params = () -> 2.0;
+        scale = new ConstantFunction(0.23);
+        shift = new ConstantFunction(0.11);
+        linearFunction = new LinearFunction(scale, shift);
+        params = () -> 2.0;
+    }
 
 
     @Test
@@ -24,18 +31,26 @@ class LinearFunctionTest {
 
     @Test
     void setScale() {
-        AbstractTimeFunction newScale = new ConstantFunction(0.15);
+        newScale= new ConstantFunction(0.5);
         linearFunction.setScale(newScale);
         Assertions.assertEquals(newScale, linearFunction.getScale());
-        linearFunction.setScale(scale);
+
+        newScale= new LinearFunction();
+        newScale.setParameters(scale,shift);
+        linearFunction.setScale(newScale);
+        Assertions.assertEquals(newScale, linearFunction.getScale());
     }
 
     @Test
     void setShift() {
-        AbstractTimeFunction newShift = new ConstantFunction(0.18);
+
+        newShift= new ConstantFunction(0.18);
         linearFunction.setShift(newShift);
         Assertions.assertEquals(newShift, linearFunction.getShift());
-        linearFunction.setScale(shift);
+
+        newShift= new LinearFunction(scale,shift);
+        linearFunction.setShift(shift);
+        Assertions.assertEquals(shift, linearFunction.getShift());
     }
 
     // Buscar alternativas al churro ese
