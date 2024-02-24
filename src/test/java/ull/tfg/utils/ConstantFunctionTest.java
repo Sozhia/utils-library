@@ -18,25 +18,25 @@ class ConstantFunctionTest {
 
 
     @Test
-    void setConstantValue() {
+    void testSetConstantValue() {
         constantFunction.setConstantValueValue(0.23);
         Assertions.assertEquals(0.23,constantFunction.getValue(params));
     }
 
     @Test
-    void getConstantValue() {
+    void testGetConstantValue() {
         constantFunction.setConstantValueValue(0.23);
         Assertions.assertEquals(0.23,constantFunction.getValue(params));
     }
 
     @Test
-    void getValue() {
+    void testGetValue() {
         double result = constantFunction.getValue(params);
         Assertions.assertEquals(0d, result);
     }
 
     @Test
-    void setParameters() {
+    void testSetParameters() {
         constantFunction.setParameters(expectedValue);
         Assertions.assertEquals(expectedValue,
                 constantFunction.getValue(params),
