@@ -1,7 +1,9 @@
-package ull.tfg.utils;
+package ull.tfg.functions;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import ull.tfg.functions.ConstantFunction;
+import ull.tfg.functions.TimeFunctionParams;
 
 class ConstantFunctionTest {
     ConstantFunction constantFunction = new ConstantFunction(0d);

@@ -1,10 +1,13 @@
-package ull.tfg.utils;
+package ull.tfg.functions;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import ull.tfg.functions.AbstractTimeFunction;
+import ull.tfg.functions.ConstantFunction;
+import ull.tfg.functions.LinearFunction;
+import ull.tfg.functions.NextHighFunction;
+import ull.tfg.functions.TimeFunctionParams;
 
 class NextHighFunctionTest {
     NextHighFunction nextHighFunction;

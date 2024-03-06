@@ -1,4 +1,4 @@
-package ull.tfg.utils;
+package ull.tfg.functions;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -6,6 +6,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import simkit.random.RandomVariateFactory;
+import ull.tfg.functions.AbstractTimeFunction;
+import ull.tfg.functions.NextHighFunction;
+import ull.tfg.functions.PolynomialFunction;
+import ull.tfg.functions.RandomFunction;
+import ull.tfg.functions.TimeFunctionParams;
 
 class PolynomialFunctionTest {
 

@@ -1,9 +1,11 @@
-package ull.tfg.utils;
+package ull.tfg.functions;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import ull.tfg.functions.PeriodicProportionFunction;
+import ull.tfg.functions.TimeFunctionParams;
 
 class PeriodicProportionFunctionTest {
 

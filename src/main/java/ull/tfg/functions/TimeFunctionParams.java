@@ -1,5 +1,5 @@
 
-package ull.tfg.utils;
+package ull.tfg.functions;
 
 public interface TimeFunctionParams {
 

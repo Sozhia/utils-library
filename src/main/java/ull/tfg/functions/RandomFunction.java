@@ -1,4 +1,4 @@
-package ull.tfg.utils;
+package ull.tfg.functions;
 
 import simkit.random.RandomVariate;
 
